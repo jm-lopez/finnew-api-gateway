@@ -1,4 +1,5 @@
 #STAGE 1 : BUILDING
+
 FROM maven:3.14.0-amazoncorretto-26 AS Build
 LABEL authors="BassDX"
 WORKDIR /app
